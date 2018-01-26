@@ -1,10 +1,32 @@
+
+@font-face {
+font-family: "Arnhem Bold";
+src: url("fonts/ArnhemBold");
+src: 
+url("fonts/ArnhemBold") format("ttf"),
+}
 body {
-	background-color: fcfcfc;
+	background-color: #F2F4F4;
+    font-family: "Arnhem Bold";
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato";
 }
 #nav.affix {
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    background-color: #FEF8F2;
+}
+#nav {
+	position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #B4E2E6;
+    font-family: "Lato";
+}
+a {
+    color: #303033;
 }
 
 #nav > .navbar-inner {
@@ -15,6 +37,17 @@ body {
     -moz-border-radius: 0;
     -o-border-radius: 0;
 }
-.navbar{
-	background-color: #FEF8F2;
+main {
+    margin-top: 40px;
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+.cursiva {
+    font-family: 'Marck Script', cursive;
 }

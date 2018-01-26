@@ -1,67 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jana's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<title>Jana's Portfolio | UX Researcher</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Marck+Script" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	  	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+	  <script type="text/javascript" src="js/custom.js"></script>  
 
 </head>
 <body>
-	
-		<div id="nav-wrapper">
+	<header>
+	<div id="nav-wrapper">
     <div id="nav" class="navbar">
-        <div class="navbar-inner">
-            <div class="container">
-                <div class="span12">
-                    <a class="home" href="index.html">Nausika</a>
-                    <a class="projects" href="projects.html">Projects</a>
-                    <a class="resume" href="resume.html">Resume</a>
-                </div>
-            </div> <!-- container -->
-        </div> <!-- navbar-inner -->
-    </div> <!-- navbar -->
-</div>
-    </div>
-	<div class="container-fluid">
-		<img src="img/background.jpg">
-		<H1>I'am coming.</H1>
-		<div class="jumbotron">
-		  <h1 class="display-3">Hello, world!</h1>
-		  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-		  <hr class="my-4">
-		  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-		  <p class="lead">
-		    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
- 		 </p>
-	</div>
+        <div class="navbar-inner"> 
+        	<div class="container"> 
+        		<div class="span12">
+        		<a class="home pr-3" href="index.html">Nausika</a>
+            	<a class="projects pr-3" href="projects.html">Projects</a>
+            	<a class="resume pr-3" href="resume.html">Resume</a>	
+        		</div>          
+        	</div>
+        </div>    
+    </div> 
+</div><!-- navbar -->
+</header>
 
-	</div>
-	<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Fluid jumbotron</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-  </div>
-</div>
-</body>
-<script type="text/javascript">
-$(document).ready(function() {
+<main>
+	<div class="container">
+		<div class="row">
+			<h1>User Experience & User Interaction Design</h1>	
+		</div>
 		
-	$(function() {
-    $('#nav-wrapper').height($("#nav").height());
-    
-    $('#nav').affix({
-        offset: { top: $('#nav').offset().top }
-    	});
-	});
-
-});
-
-
-</script>
-
-	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-	<script src="js/terminal.js"></script>
+		<div class="row">
+			<div class="col-8">
+				<div class="row">
+					<h6 class="pr-3 pl-1">User research:</h6>
+					<h6 class="pr-3">Prototyping:</h6>
+					<h6 class="pr-3">Usability Testing:</h6>
+					<h6 class="pr-3">User Interface:</h6>
+				</div>
+			
+			</div>
+			
+		</div>
+		
+		<p>This is a paragraph with a font I am hoping to get</p>
+		<div class="divider">
+			<span class="cursiva">I have no special talent. I am only passionately curious. (A. Einstein)</span>
+		</div>
+	</div>
+</main>
+</body>
 </html>
