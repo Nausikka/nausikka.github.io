@@ -1,16 +1,24 @@
 $(document).ready(function() {
-		
-	$(function() {
-    $('#nav-wrapper').height($("#nav").height());
-    
+$(function()) {
     $('#nav').affix({
-        offset: { top: $('#nav').offset().top }
-    	});
-	});
+    offset: { top: $('#nav').offset().top }
+});
+    
+} 
+​
 
-	window.scrollTo = function( x,y ) 
-    {
-        return true;
-    }
+		
+	// $(function() {
+ //    $('#nav-wrapper').height($("#nav").height());
+    
+ //    $('#nav').affix({
+ //        offset: { top: $('#nav').offset().top }
+ //    	});
+	// });
+
+	// window.scrollTo = function( x,y ) 
+ //    {
+ //        return true;
+ //    }
 
 });

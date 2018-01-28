@@ -1,4 +1,5 @@
 
+/*Setup*/
 @font-face {
 font-family: "Arnhem Bold";
 src: url("fonts/ArnhemBold");
@@ -8,10 +9,25 @@ url("fonts/ArnhemBold") format("ttf"),
 body {
 	background-color: #F2F4F4;
     font-family: "Arnhem Bold";
+    margin-top: 40px;
+}
+main {
+    margin-top: 48px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+.cursiva {
+    font-family: 'Marck Script', cursive;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lato";
 }
+
+/*navbar*/
 #nav.affix {
     position: fixed;
     top: 0;
@@ -24,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     background-color: #B4E2E6;
     font-family: "Lato";
+    z-index: 1;
 }
 a {
     color: #303033;
@@ -37,17 +54,27 @@ a {
     -moz-border-radius: 0;
     -o-border-radius: 0;
 }
-main {
-    margin-top: 40px;
+
+/*Intro-home page*/
+.intro {
+    height: 400px; 
+    border: 1px solid grey;
+    display: block;
+
 }
 
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 960px;
-  }
+/*Card project*/
+.card-project {
+    border: 1px solid grey;
+    padding: 24px;
+    max-height: 250px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 48px;
 }
+.img-thumbnail {
+    max-height: 100%;
+    width: 100%;
 
-.cursiva {
-    font-family: 'Marck Script', cursive;
 }
