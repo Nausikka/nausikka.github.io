@@ -12,7 +12,7 @@ body {
     margin-top: 40px;
 }
 main {
-    margin-top: 48px;
+    margin-top: 36px;
 }
 
 @media (min-width: 1200px) {
@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Lato";
 }
 
+
 /*navbar*/
 #nav.affix {
     position: fixed;
@@ -39,11 +40,20 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     width: 100%;
     background-color: #B4E2E6;
+    font-style: bold;
     font-family: "Lato";
     z-index: 1;
+        margin-bottom: 48px;-webkit-box-shadow: 1px 2px 2px -1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px 2px 2px -1px rgba(0,0,0,0.15);
+    box-shadow: 1px 2px 2px -1px rgba(0,0,0,0.15);
+    height: 40px;
+
 }
 a {
     color: #303033;
+}
+a:hover {
+    text-decoration: none;
 }
 
 #nav > .navbar-inner {
@@ -53,28 +63,58 @@ a {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -o-border-radius: 0;
+    height: 100%;
+}
+.navbar-inner a {
+    position: relative;
+    display: inline-block;
+}
+.navbar-inner a:hover {
+    background-color: #95D0D5;
+    color: #303033;
+    -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
 }
 
 /*Intro-home page*/
 .intro {
     height: 400px; 
-    border: 1px solid grey;
-    display: block;
-
+    position: relative;
+    display: block;;
 }
 
 /*Card project*/
 .card-project {
-    border: 1px solid grey;
     padding: 24px;
-    max-height: 250px;
+    max-height: 350px;
     overflow: hidden;
     width: 100%;
     background-color: #fff;
-    margin-bottom: 48px;
+    margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
+    box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
 }
 .img-thumbnail {
     max-height: 100%;
     width: 100%;
+}
+.img-responsive {
+    width: 100%;
+}
+.skills {
+    font-family: "Lato";
+}
+
+.card-project-detail {
+    padding: 24px;
+    max-height: auto;
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
+    box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
 
 }

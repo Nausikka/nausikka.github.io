@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato|Marck+Script" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
 	  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
 	  <script type="text/javascript" src="js/custom.js"></script>  
@@ -14,20 +15,21 @@
 <body>
 
 	<div id="navbar">
-    <div id="nav" class="navbar">
-        <div class="navbar-inner">        	
-        		<a class="home pr-3" href="index.html">Nausika</a>
-            	<a class="projects pr-3" href="projects.html">Projects</a>
-            	<a class="resume pr-3" href="resume.html">Resume</a>	     
+    <div id="nav">
+        <div class="navbar-inner pl-3">        	
+        		<a class="home p-2" href="index.html">Nausika</a>
+            	<a class="projects p-2" href="projects.html">Projects</a>
+            	<a class="resume p-2" href="resume.html">Resume</a>	     
     	</div> 
 	</div>
 
 <div class="container">
+	
 	<div class="row">
 		<div class="col-md-12">
 		<div class="intro">	
-			<h1 class="mt-5">User Experience & User Interaction Design</h1>	
-				<div class="container">
+			<h2 class="mt-5">User Experience & User Interaction Design</h2>	
+				<div class="container mb-5">
 				<div class="row">
 					<h6 class="pr-3">User research:</h6>
 					<h6 class="pr-3">Prototyping:</h6>
@@ -35,53 +37,64 @@
 					<h6 class="pr-3">User Interface:</h6>
 				</div>
 				</div>
-			<p>This is a paragraph with a font I am hoping to get</p>
-			<div class="divider">
-				<span class="cursiva">I have no special talent. I am only passionately curious. (A. Einstein)</span>
+				<div class="container">
+				<div class="row justify-content-end">
+					<div class="col-md-10">
+						<img class="img-responsive" src="img/runner.svg">	
+					</div>
+					
+				</div>
+			</div>
 			</div>
 		</div>
-		</div>
 	</div>
+	<h2>Projects</h2>
 	<main>
-		 
+		 <!--project card-->
 		   <div class="card-project"> 
-		   	<div class="row">
-		   			<div class="col-md-8">
+		   	<div class="row justify-content-between">
+		   			<div class="col-md-6">
 		   				<h4>This is Title for project card</h4> 
 		   				<span class="skills">User Research: Usability Testing: User Interface:</span> 
-		   				<p> Here is going to be some summary and overview on the project I was working on. I should say something about overall goal and purpose of the project. It doesn't need to be too long. Just one paragraph. </p> 
+		   				<p class="mt-4"> Here is going to be some summary and overview on the project I was working on. I should say something about overall goal and purpose of the project. It doesn't need to be too long. Just one paragraph. </p> 
 		   				<a href="projects/discovery.html" class="btn btn-outline-primary">Read more</a>
-
 		   			</div>
-		   			<div class="col-md-4">
-
+		   			<div class="col-md-5">
 		   				<img class="img-responsive img-thumbnail pb-5" alt="Responsive image" src="img/repo-thumb.png" /> 
 		   			</div>
-		   </div>
-		   </div> 	
+		   		</div>
+		   </div> 	<!--end of the project card-->
 
+			<!--project card-->
 		   <div class="card-project"> 
-		   		<div class="row">
-		   			<div class="col-md-8">
+		   	<div class="row justify-content-between">
+		   			<div class="col-md-6">
 		   				<h4>This is Title for project card</h4> 
 		   				<span class="skills">User Research: Usability Testing: User Interface:</span> 
-		   				<p> Here is going to be some summary and overview on the project I was working on. I should say something about overall goal and purpose of the project. It doesn't need to be too long. Just one paragraph. </p> 
+		   				<p class="mt-4"> Here is going to be some summary and overview on the project I was working on. I should say something about overall goal and purpose of the project. It doesn't need to be too long. Just one paragraph. </p> 
+		   				<a href="projects/discovery.html" class="btn btn-outline-primary">Read more</a>
 		   			</div>
-		   			<div class="col-md-4">
-		   				<img class="img-responsive img-thumbnail" alt="Responsive image" src="img/repo-thumb.png" /> 
+		   			<div class="col-md-5">
+		   				<img class="img-responsive img-thumbnail pb-5" alt="Responsive image" src="img/repo-thumb.png" /> 
 		   			</div>
 		   		</div>
+		   </div> 	<!--end of the project card-->
 
-		   </div> 	
-
-		 
-		
-		    
-
-			
-		
-
-	</main>
+		   <!--project card-->
+		   <div class="card-project"> 
+		   	<div class="row justify-content-between">
+		   			<div class="col-md-6">
+		   				<h4>This is Title for project card</h4> 
+		   				<span class="skills">User Research: Usability Testing: User Interface:</span> 
+		   				<p class="mt-4"> Here is going to be some summary and overview on the project I was working on. I should say something about overall goal and purpose of the project. It doesn't need to be too long. Just one paragraph. </p> 
+		   				<a href="projects/discovery.html" class="btn btn-outline-primary">Read more</a>
+		   			</div>
+		   			<div class="col-md-5">
+		   				<img class="img-responsive img-thumbnail pb-5" alt="Responsive image" src="img/repo-thumb.png" /> 
+		   			</div>
+		   		</div>
+		   </div> 	<!--end of the project card-->		
+		</main>
 	
 </div>
 
