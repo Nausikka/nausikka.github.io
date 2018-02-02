@@ -7,12 +7,12 @@ src:
 url("fonts/ArnhemBold") format("ttf"),
 }
 body {
-	background-color: #F2F4F4;
+	background-color: #F9F4F4;
     font-family: "Arnhem Bold";
     margin-top: 40px;
 }
 main {
-    margin-top: 36px;
+    margin-top: 24px;
 }
 
 @media (min-width: 1200px) {
@@ -25,6 +25,13 @@ main {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lato";
+    color: #606470;
+}
+p {
+    color: #40434A;
+}
+.lato {
+    font-family: "Lato";
 }
 
 
@@ -33,13 +40,12 @@ h1, h2, h3, h4, h5, h6 {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #FEF8F2;
 }
 #nav {
 	position: fixed;
     top: 0;
     width: 100%;
-    background-color: #B4E2E6;
+    background-color: #40434A;
     font-style: bold;
     font-family: "Lato";
     z-index: 1;
@@ -49,8 +55,14 @@ h1, h2, h3, h4, h5, h6 {
     height: 40px;
 
 }
+.dvojbodka {
+    font-size: 20px;
+    color: #E2474C;
+    font-weight: 800;
+    line-height: 12px;
+}
 a {
-    color: #303033;
+    color: #F9F4F4;
 }
 a:hover {
     text-decoration: none;
@@ -64,14 +76,21 @@ a:hover {
     -moz-border-radius: 0;
     -o-border-radius: 0;
     height: 100%;
+    font-size: 0;
 }
+
 .navbar-inner a {
     position: relative;
+    font-size: 16px;
     display: inline-block;
+    color: #F9F4F4;
 }
+.navbar-inner a.active {
+    border-bottom: 2px solid #E2474C;
+} 
 .navbar-inner a:hover {
-    background-color: #95D0D5;
-    color: #303033;
+    border-bottom: 2px solid #E2474C;
+    color: #F9F4F4;
     -webkit-transition: background-color .5s ease-out;
   -moz-transition: background-color .5s ease-out;
   -o-transition: background-color .5s ease-out;
@@ -82,7 +101,8 @@ a:hover {
 .intro {
     height: 400px; 
     position: relative;
-    display: block;;
+    display: block;
+    height: auto;
 }
 
 /*Card project*/
@@ -92,9 +112,9 @@ a:hover {
     overflow: hidden;
     width: 100%;
     background-color: #fff;
-    margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
-    -moz-box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
-    box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
+    margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
 }
 .img-thumbnail {
     max-height: 100%;
@@ -113,8 +133,71 @@ a:hover {
     overflow: hidden;
     width: 100%;
     background-color: #fff;
-    margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
-    -moz-box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
-    box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.15);
+    margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+
+}
+.card-resume {
+     padding: 24px;
+    height: auto;   
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+
+}
+.logo {
+
+}
+.heading {
+    background-color: #40434A;
+    color: #F9F4F4;
+    font-family: "Lato";
+    margin: -24px;
+    padding: 12px;
+}
+.divider {
+    display: block;
+    height: 1px;
+    background-color: #F3F3F3;
+    width: 100%;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+.caption {
+    font-style: italic;
+}
+.footer .contact{
+    background-color: #40434A;
+    color: #F9F4F4;
+    padding: 24px;
+    max-height: auto;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    }
+
+.footer h2 {
+    color: #F9F4F4;
+}
+.footer .divider {
+        background-color: #4A4A4A;
+
+}
+.time-company {
+    font-family: "Lato";
+    font-size: 14px;
+    color: #606470;
+    font-weight: 300;
+    margin-right: 12px;
+}
+.time-company a {
+    color: inherit;
+    text-decoration: underline;
 
 }
