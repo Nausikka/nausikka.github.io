@@ -61,6 +61,11 @@ p {
     font-weight: 800;
     line-height: 12px;
 }
+.dvojbodka-svg {
+    padding-bottom: 2px;
+    width: 3px;
+    display: inline-block;
+}
 a {
     color: #F9F4F4;
 }
@@ -105,16 +110,29 @@ a:hover {
     height: auto;
 }
 
+
 /*Card project*/
 .card-project {
     padding: 24px;
-    max-height: 350px;
     overflow: hidden;
     width: 100%;
     background-color: #fff;
-    margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    margin-bottom: 48px;
+    -webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
     -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
     box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+}
+.card-project h4 {
+    color: #40434A;
+
+}
+.card-project .btn {
+    background-color: #F3F3F3;
+    border: 1px solid #D8D5D8;
+    font-family: "Lato";
+    color: #40434A;
+    font-size: 12px;
+
 }
 .img-thumbnail {
     max-height: 100%;
@@ -125,6 +143,9 @@ a:hover {
 }
 .skills {
     font-family: "Lato";
+    display: inline-block;
+    padding-right: 1em;
+    font-size: 14px;
 }
 
 .card-project-detail {
@@ -138,6 +159,8 @@ a:hover {
     box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
 
 }
+
+
 .card-resume {
      padding: 24px;
     height: auto;   
@@ -170,7 +193,7 @@ a:hover {
 .caption {
     font-style: italic;
 }
-.footer .contact{
+.greetings{
     background-color: #40434A;
     color: #F9F4F4;
     padding: 24px;
@@ -182,10 +205,10 @@ a:hover {
     box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
     }
 
-.footer h2 {
+.greetings h2 {
     color: #F9F4F4;
 }
-.footer .divider {
+.greetings .divider {
         background-color: #4A4A4A;
 
 }
@@ -200,4 +223,17 @@ a:hover {
     color: inherit;
     text-decoration: underline;
 
+}
+.contact {
+    padding: 24px;
+    max-height: 350px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+}
+.contact a {
+    color: #606470;
 }
