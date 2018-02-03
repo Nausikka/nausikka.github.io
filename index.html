@@ -6,36 +6,37 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato|Marck+Script" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
-	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
 	  <script type="text/javascript" src="js/custom.js"></script>  
 </head>
 <body>
-
-	<div id="navbar">
+<div id="navbar">
     <div id="nav">
         <div class="navbar-inner pl-3">        	
-              <a class="home p-2 pr-3 pl-3" href="index.html"><img src="img/icons/logo.svg"></a>
-            	<a class="projects m-2 mr-3 ml-3" href="projects.html">Projects</a>
-            	<a class="resume m-2 mr-3 ml-3" href="resume.html">Resume</a>	     
-            	<a class="fun m-2  mr-3 ml-3" href="fun.html">Contact</a>
+          	<a class="home p-2 pr-3 pl-3" href="index.html"><img src="img/icons/logo.svg"></a>
+        	<a class="projects m-2 mr-3 ml-3" href="projects.html">Projects</a>
+        	<a class="resume m-2 mr-3 ml-3" href="resume.html">Resume</a>	     
+        	<a class="fun m-2  mr-3 ml-3" href="contact.html">Contact</a>
     	</div> 
 	</div>
+</div>
+<!--end of navbar-->
 
 <div class="container">
 	
 	<div class="row">
 		<div class="col-md-12">
 		<div class="intro">	
-			<h2 class="mt-5">User Experience & User Interaction Design</h2>	
+			<h2 class="mt-5  pb-2">User Experience &nbsp & &nbsp Interaction Design</h2>	
 				<div class="container mb-5">
 				<div class="row justify-content-start">
 					
-					<h6 class="col-md-2 pr-3">User research<span class="dvojbodka">:</span></h6>
-					<h6 class="col-md-2">Prototyping:</h6>
-					<h6 class="col-md-2">Usability Testing:</h6>
-					<h6 class="col-md-2">User Interface:</h6>
+					<h6 class="intro-skills pr-4"><img class="dvojbodka-svg" src="img/icons/logo.svg"> User research</h6>
+					<h6 class="intro-skills pr-4"><img class="dvojbodka-svg" src="img/icons/logo.svg"> Prototyping</h6>
+					<h6 class="intro-skills pr-4"><img class="dvojbodka-svg" src="img/icons/logo.svg"> Usability Testing</h6>
+					<h6 class="intro-skills pr-4"><img class="dvojbodka-svg" src="img/icons/logo.svg"> User Interface</h6>
 				
 				</div>
 				</div>
@@ -50,19 +51,37 @@
 			</div>
 		</div>
 	</div>
-	<h2 class="pt-5"><a name="projects">Projects</a></h2>
-	<main>
+	<h2 class="pt-5">Projects</h2>
+	<main class="container-fluid">
+
 		 <!--project card-->
-		   <div class="card-project"> 
+		   <div class="row card-project"> 
 		   	<div class="row justify-content-between">
 		   			<div class="col-md-6">
-		   				<h4>This is Title for project card</h4> 
-		   				<span class="skills">User Research: Usability Testing: User Interface:</span> 
-		   				<p class="mt-4"> Here is going to be some summary and overview on the project I was working on. I should say something about overall goal and purpose of the project. It doesn't need to be too long. Just one paragraph. </p> 
-		   				<a href="projects/discovery.html" class="btn btn-outline-primary">Read more</a>
+		   				<h4>Discover: Genomic Data Search</h4> 
+		   				 
+		   				<p class="mt-4"> Here is going to be some summary and overview on the project I was working on. I should say something about overall goal and purpose of the project. It doesn't need to be too long. Just one paragraph. There should be more text here as the description should be a litle bit longer.</p> 
+		   				<div class="row hidden-md-up">
+		   					<div class="col-md-5 col-sm-12 mb-3">
+		   					<img class=" img-responsive img-thumbnail pb-5" alt="Responsive image" src="img/repo-logo.png" /> 
+		   				</div>	
+		   				</div>
+		   				
+		   				<div class="row">
+		   					<div class="col-md-12">
+		   					<span class="skills"><img class="dvojbodka-svg" src="img/icons/logo.svg"> User Research</span>
+		   					<span class="skills"><img class="dvojbodka-svg" src="img/icons/logo.svg"> Usability Testing</span>
+		   					<span class="skills"><img class="dvojbodka-svg" src="img/icons/logo.svg"> User Interface</span>
+		   				</div>	
+		   				</div>
+		   				<div class="row">
+		   					<div class="col-md-12 mt-4">
+		   						<a href="projects/discovery.html" class="btn btn-outline-primary">READ MORE</a>		
+		   					</div>
+		   				</div>
 		   			</div>
-		   			<div class="col-md-5">
-		   				<img class="img-responsive img-thumbnail pb-5" alt="Responsive image" src="img/repo-thumb.png" /> 
+		   			<div class="col-md-5 hidden-md-down">
+		   				<img class="img-responsive img-thumbnail pb-5" alt="Responsive image" src="img/repo-logo.png" /> 
 		   			</div>
 		   		</div>
 		   </div> 	<!--end of the project card-->
@@ -99,8 +118,8 @@
 		</main>
 		
 	
-	<div class="footer">
-		<div class="contact">
+	
+		<div class="greetings">
 			<h2>Hi, Nice To Meeting You! </h2>
 			<div class="row justify-content-between">
 				<div class="col-md-6">
@@ -123,9 +142,6 @@
 						</div>		
 					</div>
 			</div>
-		</div>
-
-
 </div>
 
 
