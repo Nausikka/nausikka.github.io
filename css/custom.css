@@ -23,7 +23,7 @@ main {
 .cursiva {
     font-family: 'Marck Script', cursive;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, li {
     font-family: "Lato";
     color: #40434A;
 }
@@ -245,7 +245,13 @@ a:hover {
 .time-company a {
     color: inherit;
     text-decoration: underline;
-
+}
+.time-company h6 {
+    display: inline-block;
+}
+p a {
+    color: inherit;
+    text-decoration: underline;   
 }
 .contact {
     padding: 24px;
@@ -259,4 +265,11 @@ a:hover {
 }
 .contact a {
     color: #606470;
+}
+iframe:hover {
+
+}
+.shadow {
+ -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);   
 }
