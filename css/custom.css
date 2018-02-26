@@ -266,6 +266,9 @@ p a {
 .contact a {
     color: #606470;
 }
+.social-icons {
+    width: 10%;
+}
 iframe:hover {
 
 }
