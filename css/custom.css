@@ -81,6 +81,7 @@ a {
 }
 a:hover {
     text-decoration: none;
+    color: inherit;
 }
 
 #nav > .navbar-inner {
@@ -225,15 +226,24 @@ a:hover {
     box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
     }
 
-.greetings h2 {
+.greetings h2{
     color: #F9F4F4;
 }
 .greetings p {
     color: #F9F4F4;   
 }
+.greetings h6 {
+    color: #F9F4F4;   
+}
 .greetings .divider {
         background-color: #4A4A4A;
 
+}
+.img-rounded {
+    border-radius: 50%;
+}
+.network a {
+    color: inherit;
 }
 .time-company {
     font-family: "Lato";
@@ -267,7 +277,7 @@ p a {
     color: #606470;
 }
 .social-icons {
-    width: 10%;
+    width: 7%;
 }
 iframe:hover {
 
