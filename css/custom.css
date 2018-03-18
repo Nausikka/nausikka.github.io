@@ -240,7 +240,11 @@ a:hover {
     -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
     box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
     }
-
+.shadow {
+    margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+    box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
+}
 .greetings h2{
     color: #F9F4F4;
 }
