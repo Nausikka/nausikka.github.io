@@ -244,15 +244,13 @@ a:hover {
     -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
     box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
     }
-<<<<<<< HEAD
+
 .shadow {
     margin-bottom: 48px;-webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
     -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
     box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.15);
 }
-=======
 
->>>>>>> 8e425ea4c23043b1d7681a4d9f3eb4dc90f108af
 .greetings h2{
     color: #F9F4F4;
 }
