@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jana's Portfolio | RummbleLabs</title>
+  <title>Jana's Portfolio | Food Computer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato|Marck+Script|Merriweather" rel="stylesheet"> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -30,16 +30,16 @@
         <main>
           <div class="card-project-detail"> 
             <div class="heading">
-                <span class="pr-4"><span class="dvojbodka">: </span> User interface</span>
-                <span class="pr-4"><span class="dvojbodka">: </span> Web development</span>
-                <span class="pr-4"><span class="dvojbodka">: </span> Branding & Design</span>
+                <span class="pr-4"><span class="dvojbodka">: </span> Electronics</span>
+                <span class="pr-4"><span class="dvojbodka">: </span> Arduino</span>
+                <span class="pr-4"><span class="dvojbodka">: </span> Hydrophonics</span>
          </div>
             <!--section-->
 
             <div class="row justify-content-between mt-5">
               <div class="col-md-6">
                 <h4>Summary</h4>
-                <p>Businesses and media sites could integrate sharing widget for facebook users. The widget then recoomends the most relevant friends to share the content. 
+                <p>This is my life project and really good fun. I wanted to combine my two big passions technology and nature. As a person who likes gardening I wanted to create automated environment where I could experiment with growing different types of plants. 
                 </p>
 
               </div>
@@ -53,10 +53,10 @@
 
             <div class="row">
               <div class="col-md-12">
-                  <h4><img class="col-md-1 img-responsive pb-2" alt="Responsive image" src="../img/rummble-logo.jpg" />| About Rummble Labs:Sharing Widget</h4>                  
+                  <h4><img class="col-md-1 img-responsive pb-2" alt="Responsive image" src="../img/rummble-logo.jpg" />| About MIT Food Computer project</h4>                  
                 </div>
               <div class="col-md-11">
-                <p>The London-based technology start-up entered the market in publishing with it’s recommendation algorithm in 2012 to provide readers with better recommended content. Rummble also created a predictive social sharing product that suggests Facebook friends who might be interested in the content or service that you are currently consuming to increase organic social sharing. The startup went through radical restructuring in 2014 and now continues as Seldon.io provide open source machine learning deployment platform.</p>
+                <p>MIT has it's own version of food computer (currently 2.0) which is open source and documetation is getting better. The project is quite complex and some components are quite expensive and difficult to get in UK</p>
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@
             <div class="row justify-content-between">
               <div class="col-md-6">
                 <h4>Concept</h4>
-                <p>Rummble Labs was using smart algoritms to use social data (facebook) to suggest friends based on their interests (likes, groups) accomodate with a website content.
+                <p>The idea of food computer is to have automated system to created controled environment for growing plants. All necessary factors for plants: light, water, air, humidity and temperature would be controled by Arduino which would be connected to appropriated devices. There would be set of sensors capturing real time data of the current environment status.  
                 </p>
               </div>
               <div class="col-md-5">
@@ -76,8 +76,8 @@
 
             <div class="row justify-content-between">
               <div class="col-md-6">
-                <h4>UI Development</h4>
-                <p>My main contribution was in creating photoshop mockups for clients and front-end develepment using javascript HTML&CSS. It was my first real experience with javascript programming and git and my new best friend was web console >| 
+                <h4>Connecting devices</h4>
+                <p>I didn't have much experience with electronics. Currently arduino or rasperry pi is pretty much plugh and play concept but to create more customised solution I had to learn more about electricity: how current and voltage works. I find it quite fascinating how simple and complex it can get. I was facing many challenges when I was adding more devices to arduino, spending hours trying figuring out where the problem was. You can read my build diary at github. It's quite sparse but I'll keep adding more info as I move on. 
                 </p>
                 <span class="skills"><img class="dvojbodka-svg" src="../img/icons/logo.svg"> HTML&CSS</span>
                   <span class="skills"><img class="dvojbodka-svg" src="../img/icons/logo.svg"> Javascript</span>
@@ -90,9 +90,9 @@
 
             <div class="row">
               <div class="col-md-11">
-                <h4>Testing</h4>
+                <h4>Hydrophonics</h4>
                 <p>
-                  For Miniclip (populart Facebook Game) Client we had the opportunity to integrated A/B testing as the trafic was reasonably high. Unfortunatelly, I can remember the results of the testings in this case. But for other client we were testing the different logout screens designs and we found out that having a bluered images behind was encouraging signing up with facebook more than just solely signup button.
+                  OK, so this is not that much about electronics but it's very important part of the project. Choosing the right system and understanding how it works. 
                 </p>
               </div>
             </div>
@@ -106,9 +106,23 @@
             <!--section-->  
             <div class="row">
               <div class="col-md-11">
-                <h4>Learning</h4>
+                <h4>Learnings so far</h4>
                 <p>
-                  During my stay at Rummble Labs I've learnt a lot about front-end development, using javascript and doing debugging through web browser console. I got better understanding of programming and became more comfortable with using git and command line.
+                  At first I tried to follow MIT food computer guide, but the complexity was just overwhelming and very frustrating to get started. I abbandoned the MIT version and started my own with very simple features. I am slowly improving the version 1.0 while actually growing plants. 
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                  <img class=" img-responsive pb-2" alt="Responsive image" src="../img/rummble-ab-testing.png" /> 
+                </div>
+            </div>
+            <div class="divider"></div>      
+            <div class="row">
+              <div class="col-md-11">
+                <h4>Future plans</h4>
+                <p>
+                  Currently I am working on adding sensors. The idea is to connect the sensors to wifi and send over to my website. I've been playing with ESP8266 wifi module which is basically arduino with wifi. 
                 </p>
               </div>
             </div>
