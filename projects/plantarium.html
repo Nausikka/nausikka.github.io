@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jana's Portfolio | Plantarium</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Marck+Script|Merriweather" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/custom.css">
+  <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="../js/custom.js"></script>   
+</head>
+
+<body>
+<div id="navbar">
+    <div id="nav">
+        <div class="navbar-inner pl-3">         
+            <a class="home p-2 pr-3 pl-3" href="../index.html"><img src="../img/icons/logo.svg"></a>
+          <a class="projects m-2 mr-3 ml-3" href="../projects.html">Projects</a>
+          <a class="resume m-2 mr-3 ml-3" href="../resume.html">Resume</a>      
+          <a class="fun m-2  mr-3 ml-3" href="../contact.html">Contact</a>
+      </div> 
+  </div>
+</div>
+<!--end of navbar-->
+
+<div class="container">    
+    <h2 class="pt-4 pb-2">Food Computer</h2>
+        <main>
+          <div class="card-project-detail"> 
+            <div class="heading">
+                <span class="pr-4"><span class="dvojbodka">: </span> Electronics</span>
+                <span class="pr-4"><span class="dvojbodka">: </span> Arduino</span>
+         </div>
+            <!--section-->
+
+            <div class="row justify-content-between mt-5">
+              <div class="col-md-6">
+                <h4>Summary</h4>
+                <p> well....lost my stufffff. Need to do in again when I get over it ....wrrrrr.                </p>
+
+              </div>
+                <div class="col-md-5">
+                  <img class=" img-responsive" alt="Responsive image" src="../img/fc-hydro-plants.png "/> 
+                  <span class="caption">Here they are coming!</span>
+                </div>
+            </div>
+            <div class="divider"></div>        
+            <!--section-->
+
+            <div class="row">
+              <div class="col-md-12">
+                  <h4>| About MIT Food Computer project</h4>                  
+                </div>
+              <div class="col-md-11">
+                <p>MIT has it's own version of food computer (currently 2.0) which is open source and documetation is getting better. The project is quite complex and some components are quite expensive and difficult to get in UK</p>
+                </p>
+              </div>
+            </div>
+            <div class="divider"></div>
+
+            <div class="row justify-content-between">
+              <div class="col-md-6">
+                <h4>Concept</h4>
+                <p>The idea of food computer is to have automated system to created controled environment for growing plants. All necessary factors for plants: light, water, air, humidity and temperature would be controled by Arduino which would be connected to appropriated devices. There would be set of sensors capturing real time data of the current environment status.  
+                </p>
+              </div>
+              <div class="col-md-5">
+                  <img class="img-responsive pb-2" alt="MIT food computer" src="../img/fc-mit.png" /> 
+                  <span class="caption">MIT Food Computer</span>
+                </div>
+            </div>
+            <div class="divider"></div>      
+
+            <div class="row justify-content-between">
+              <div class="col-md-6">
+                <h4>Connecting devices</h4>
+                <p>I didn't have much experience with electronics when I started with the project and I am still learning the mysteries of electrons. I find it quite fascinating how simple idea can get so complex. I've been facing many challenges when adding more devices to arduino, spending hours trying figuring out where the problem was. You can read my build diary on <a href="https://github.com/Nausikka/fc0.1"> github </a>. It's quite sparse but I'll keep adding more info as I move on ;) 
+                </p>
+                <span class="skills"><img class="dvojbodka-svg" src="../img/icons/logo.svg"> Soldering</span>
+                  <span class="skills"><img class="dvojbodka-svg" src="../img/icons/logo.svg"> Arduino</span>
+              </div>
+              <div class="col-md-5">
+                  <img src="../img/fc-ardu-connect0.png">
+                </div>
+              </div>
+              <div class="divider"></div>
+                <div class="row">
+                <div class="col-5">
+                <img class=" img-responsive pb-2" alt="Responsive image" src="../img/fc-ardu-protoboard.png" /> 
+                <span class="caption">Testing connections on the protoboard. </span>
+              </div>
+              <div class="col-5">
+                <img class=" img-responsive pb-2" alt="Responsive image" src="../img/fc-ardu-pcb.png" /> 
+                <span class="caption">Simple PCB to make things more compact :)</span>
+              </div>
+              </div>
+            <div class="divider"></div>      
+            <div class="row">
+              <div class="col-md-11">
+                <h4>Hydrophonics</h4>
+                <p>
+                  OK, so this is not that much about electronics but it's very important part of the project. Choosing the right hydrophonic system and seting it all up required some design thinking too. The system is combination of Ebb and flow and floating platfrom. I have chosen this approach to have better control over the water level as I can control the overflow and using the airstones to make sure the roots are getting enough o2. 
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                  <img class=" img-responsive pb-2" alt="Responsive image" src="../img/fc-hydro-plants-1.png" /> 
+                </div>
+            </div>
+            <div class="divider"></div>      
+            <!--section-->  
+            <div class="row justify-content-between">
+              <div class="col-6">
+                <h4>Learnings so far</h4>
+                <p>
+                  At first I tried to follow MIT food computer guide, but the complexity was just overwhelming and very frustrating to get started. I abbandoned the MIT version and started my own with very simple features. I am slowly improving the version 1.0 while actually growing plants. 
+                </p>
+              </div>
+              <div class="col-4">
+                <img class="img-responsive shadow" src="../img/fc-box.png">
+              </div>
+            </div>
+            <!--section--> 
+            <div class="divider"></div>      
+            <div class="row">
+              <div class="col-md-11">
+                <h4>Future plans</h4>
+                <p>
+                Currently I am working on adding sensors. The idea is to connect the sensors to wifi and send over to my website. I've been playing with ESP8266 wifi module which is basically arduino with wifi.
+</p>
+              </div>
+            </div>
+
+ <!--section--> 
+            <div class="divider"></div>      
+            <div class="row">
+              <div class="col-md-11">
+                <h4>Improved version 2.0 </h4>
+                <p>
+After using the Food Computer for a few month I have bumped into a few issue: 1. Cheking the plants by lifting the box was quite effortful. 2. There was too much humidity inside. 3. Too many cables were annoying when positioning the pannel with electronics. </p>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+              <div class="col-md-5">
+                <h4>Adding Fan</h4>
+                <p>To decrease the humidity I've added fan and programmed arduino to turn it one twice per day. After adding the humidity and temperature sensor I found out that this wasn't efficient enough so I set the fan to turn on every hour for 10 minutes. The humidity is increasing fairly fast.
+              </div>
+              <div class="col-md-5">
+                  <img class=" img-responsive pb-2" alt="Responsive image" src="../img/fc-fan.jpg" /> 
+                  <span class="caption">Old computer fan is attached in reverse so the air is not blowing directly to one spot.</span>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <!-- end of the section-->
+            <!-- section -->
+            <div class="row">
+              <div class="col-md-11">
+                <h4>Adding Sensors</h4>
+                <p>Easy out-of-box sensor measuring humidity and temperature which can be displayed on a smarthopne through bluetooth. </p>         </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+              <div class="col-md-5">
+                  <img class=" img-responsive pb-2" alt="Responsive image" src="../img/fc-sensors.jpg" />
+                  <span class="caption">Convenient and precise sensors come up with bluetooth.</span>
+              </div>
+              <div class="col-md-4">
+                  <img class=" img-responsive pb-2" alt="Responsive image" src="../img/fc-sensor-app.png" />
+                  <span class="caption">The app from Sensirion shows current temperature and humidity. Data can be plotted over time.</span>
+              </div>
+            </div>
+            <div class="divider"></div>
+               <div class="row">
+                <div class="col-md-12 mt-4">
+                  <a href="../projects.html" class="btn btn-outline-primary">ALL PROJECTS</a>   
+                </div>
+              </div>
+         </div>   <!--end of the project card-->   
+  </div>
+</main>
+
+</body>
+<
